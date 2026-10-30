@@ -17,7 +17,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /path/to/your/fastapi/project
+            cd /var/www/devops_bootcamp/fastapi-devops
 
             git pull origin main
 
